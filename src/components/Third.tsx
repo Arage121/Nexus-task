@@ -44,7 +44,7 @@ const Third = (props: Props) => {
           <h3 className="xl:text-5xl text-3xl">Recent clients</h3>
           <p className="mt-8 text-lg font-sans font-extralight">
             We worked with the Fortune 500 companies in the USA, Africa, UK,
-            Middle East World's 4th Strongest Banking Brand, Automobile & IoT
+            Middle East World&apos;s 4th Strongest Banking Brand, Automobile & IoT
             industry
           </p>
         </div>
@@ -70,7 +70,7 @@ const Third = (props: Props) => {
                 key={index.toString()}
                 className="bg-white/5 xl:px-10 xl:py-32 px-8  py-14 text-center"
               >
-                <img src={item.imageUrl} alt="" className="w-96" />
+                <img src={item.imageUrl} alt="none" className="w-96" />
                 <h4 className="text-xl font-semibold tracking-wide mt-8">
                   {item.title}
                 </h4>

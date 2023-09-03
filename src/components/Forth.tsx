@@ -52,7 +52,7 @@ const Forth = (props: Props) => {
                   opacity: 1,
                 }}
                 src={item.imgLink}
-                alt=""
+                alt="none"
                 className="h-18 sm:h-18 md:h-24"
               />
               <p className="mt-4 text-left">{item.desc}</p>

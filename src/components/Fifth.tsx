@@ -52,7 +52,7 @@ const Fifth = (props: Props) => {
                   opacity: 1,
                 }}
                 src={imgLink}
-                alt=""
+                alt="none"
                 className="h-18 sm:h-18 md:h-24"
               />
               <p className="sm:mt-6 mt-3 text-left xl:text-xl sm:tracking-wide">

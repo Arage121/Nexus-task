@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { easeIn, easeInOut, motion } from "framer-motion";
+import { easeInOut, motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
 type Props = {};
@@ -73,7 +73,7 @@ const Second = (props: Props) => {
         <div className="md:mt-60 sm:mt-40 mt-8 p-20 sm:p-0 sm:ml-4 md:ml-10 xl:ml-56">
           <img
             src="https://drive.google.com/uc?export=view&id=1ie-xSPmfP1Ga4vpUSnbS_xbUOoTVD_ti"
-            alt=""
+            alt="none"
             className="sm:w-66 md:h-80 lg:h-96 h-44"
           />
         </div>
@@ -134,7 +134,7 @@ const Second = (props: Props) => {
         <div className="md:mt-60 sm:mt-40 mt-10 p-20 sm:p-0 ml-4 sm:ml-8 xl:ml-56">
           <img
             src="https://drive.google.com/uc?export=view&id=1WssiTgGQBCOWE5x_SP72DAIXytTYAsxX"
-            alt=""
+            alt="none"
             className="sm:w-66 md:h-80 lg:h-96 lg:w-[34em] h-44 sm:h-60"
           />
         </div>
@@ -177,7 +177,7 @@ const Second = (props: Props) => {
             training, certification, and school management tools to streamline
             your operations and enhance your students' learning experience.
             Trust us to provide the cutting-edge technology and support you need
-            to thrive in the ever-evolving education industry.{" "}
+            to thrive in the ever-evolving education industry.
           </p>
 
           <span className="w-full flex justify-center xl:justify-start">
