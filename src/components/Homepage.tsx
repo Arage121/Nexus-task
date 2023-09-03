@@ -2,11 +2,13 @@
 import React, { useEffect, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
+import Image from 'next/image';
+import img from '../extras/images/bg.png';
 
 type Props = {};
 
 const Homepage = (props: Props) => {
-  const [hideHamburger, setHideHamburger] = useState(false);
+  const [hideHamburger, setHideHamburger] = useState(true);
 
   const tabs: string[] = [
     "home",
@@ -27,6 +29,9 @@ const Homepage = (props: Props) => {
 
   return (
     <div className="w-full bg-[#16181c] h-screen">
+      <span className="flex justify-center relative">
+      <Image src={img} alt="" height={400} width={400} className="absolute top-72 opacity-20"/>
+      </span>
       <div className={styleParent}>
         <div>
           <h1 className="flex top-2 sm:top-4 absolute text-[32px] text-white font-semibold tracking-wide">

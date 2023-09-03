@@ -35,10 +35,9 @@ const Fifth = (props: Props) => {
           Our team is 100% concentrated on your project and you have full
           control over management of the dedicated team members.
         </p>
-        {/** space left for all images that will come here agile approach and some more */}
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 ml-20 mt-2 md:mt-0 gap-14 p-14 xl:px-80 xl:ml-24 md:ml-44  sm:gap-10 xl:gap-32 md:py-40 justify-center align-middle items-center">
-          {data?.map(({ id, imgLink, p }: any) => (
+          {data?.map(({ id, imgLink, desc }: any) => (
             <div key={id}>
               <motion.img
                 initial={{
@@ -57,7 +56,7 @@ const Fifth = (props: Props) => {
                 className="h-18 sm:h-18 md:h-24"
               />
               <p className="sm:mt-6 mt-3 text-left xl:text-xl sm:tracking-wide">
-                {p}
+                {desc}
               </p>
             </div>
           ))}
