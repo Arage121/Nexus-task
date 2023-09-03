@@ -175,7 +175,7 @@ const Second = (props: Props) => {
             Elevate your education institution with our comprehensive software
             solutions. Learning management, course offerings, professional
             training, certification, and school management tools to streamline
-            your operations and enhance your students' learning experience.
+            your operations and enhance your students&apos; learning experience.
             Trust us to provide the cutting-edge technology and support you need
             to thrive in the ever-evolving education industry.
           </p>

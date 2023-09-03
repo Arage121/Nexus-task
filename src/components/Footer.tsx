@@ -20,7 +20,7 @@ const Footer = (props: Props) => {
           Get to know us better!
         </h1>
         <p className="sm:mt-8 mt-6 font-sans text-md sm:text-lg font-light text-gray-300/100">
-          It is a pleasure to have you on our website. Let us know if there's an
+          It is a pleasure to have you on our website. Let us know if there&apos;s an
           opportunity to do something together.
         </p>
         <span className="w-full flex justify-center">

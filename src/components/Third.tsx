@@ -44,7 +44,7 @@ const Third = (props: Props) => {
           <h3 className="xl:text-5xl text-3xl">Recent clients</h3>
           <p className="mt-8 text-lg font-sans font-extralight">
             We worked with the Fortune 500 companies in the USA, Africa, UK,
-            Middle East World&apos;s 4th Strongest Banking Brand, Automobile & IoT
+            Middle East World&apos;s 4th Strongest Banking Brand, Automobile &amp; IoT
             industry
           </p>
         </div>
