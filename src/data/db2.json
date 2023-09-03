@@ -1,0 +1,43 @@
+{
+
+    "data":[
+
+        {
+            "id": 1,
+            "imgLink":"https://drive.google.com/uc?export=view&id=1VYZ7C-KsTFgSyp20corxoo-LsVTZIFUM",
+            "desc": "Agile approach"
+          },
+        
+          {
+            "id": 2,
+            "imgLink":"https://drive.google.com/uc?export=view&id=1w9zuTLe6y-2RpOgWrMbHhSLXt1q-O_fo",
+            "desc": "Deep tech expertise"
+          },
+        
+          {
+            "id": 3,
+            "imgLink":"https://drive.google.com/uc?export=view&id=1cLYOfPUvuMYH3Cfm-QP9TT0fDdQMAlxM",
+            "desc": "Personal commitment"
+          },
+        
+          {
+            "id": 4,
+            "imgLink":"https://drive.google.com/uc?export=view&id=1KuS7mdnkjEKw0dFTUX3HpZh6M4ZIA7IU",
+            "desc": "Regular Reporting"
+          },
+        
+          {
+            "id": 5,
+            "imgLink":"https://drive.google.com/uc?export=view&id=1TgP-5YOa9hWvFd-v_DhkTlxixqHUuJKx",
+            "desc": "Time tracking"
+          },
+        
+          {
+            "id": 6,
+            "imgLink":"https://drive.google.com/uc?export=view&id=1kfK-Z8EVJhmhmyJgS0jrwE5lFAY98ySM",
+            "desc": "Scalability"
+          }
+
+    ]
+
+}

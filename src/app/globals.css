@@ -25,3 +25,21 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .b{
+    border: 1px solid #f6703f;
+  }
+  .ul:hover{
+    border-bottom: 1px solid #f6703f;
+    height: 1.4em;
+    transition-delay: 10ms;
+    cursor: pointer;
+  }
+
+  .li{
+    border-bottom: 1px solid #f6703f;
+    height: 1.4em;
+    cursor: pointer;
+  }
+}
